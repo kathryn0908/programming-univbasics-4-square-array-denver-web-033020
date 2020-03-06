@@ -1,5 +1,5 @@
 def square_array(numbers)
-  count=1  
+  count=0 
   numbers=[1,2,3]
   while numbers[count] do
   numbers.each{count*count} 
