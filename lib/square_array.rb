@@ -2,8 +2,7 @@ def square_array(numbers)
   count=1  
   numbers=[1,2,3]
   while numbers[count] do
-  new_array=numbers[count]**2 
-  new_array
+  numbers.each{numbers[count]**2} 
   count+=1  
   end
   
