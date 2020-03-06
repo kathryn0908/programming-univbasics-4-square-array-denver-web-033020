@@ -4,8 +4,8 @@ def square_array(array)
   while count<array.length do
   new_array << array[count] ** 2 
   count+=1  
-  return new_array
   end
+return new_array
   
 end
 
